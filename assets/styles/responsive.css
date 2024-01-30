@@ -1,0 +1,1203 @@
+@media screen and (max-width: 800px) {
+  header.flex-center {
+    justify-content: center;
+  }
+
+  header.flex-center aside.heading nav label {
+    display: block;
+  }
+
+  header.flex-center aside.socials nav ul {
+    display: none;
+  }
+
+  header.flex-center .socials-hidden {
+    display: flex;
+    gap: 10px;
+  }
+
+  header.flex-center aside.heading nav ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: #fbe4ce;
+    top: 68px;
+    right: -100%;
+    flex-direction: column;
+    gap: 30px;
+    z-index: 100;
+  }
+
+  header.flex-center aside.heading nav input:checked ~ ul {
+    right: 0;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  main section.banner article.flex-center {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  main section.banner article.flex-center aside:nth-child(2) {
+    margin-top: 50px;
+  }
+
+  main section.banner article.flex-center aside:nth-child(3) {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 331px) {
+  main section.banner article.flex-center aside div.overlay1,
+  main section.banner article.flex-center aside div.overlay3 {
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 331px) {
+  main section.banner article.flex-center aside div.overlay2 {
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 319px) {
+  main section.banner article.flex-center aside div.overlay1,
+  main section.banner article.flex-center aside div.overlay2,
+  main section.banner article.flex-center aside div.overlay3 {
+    left: 0;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  main main.posts {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 291px) {
+  main main.posts section.posts aside.left article.post-photo2,
+  main main.posts section.posts aside.left article.post-photo3 {
+    margin-top: 15px;
+  }
+}
+
+@media screen and (max-width: 979px) {
+  main section.image-gallery {
+    padding-top: 600px;
+  }
+}
+
+@media screen and (max-width: 981px) {
+  main section.about article.heather aside form div.heather {
+    left: 0;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  main main.lifestyle-posts section.posts aside.left,
+  main main.family-posts section.posts aside.left,
+  main main.food-posts section.posts aside.left {
+    width: 100%;
+    max-width: 750px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  main main.lifestyle-posts section.posts aside.left,
+  main main.family-posts section.posts aside.left,
+  main main.food-posts section.posts aside.left {
+    width: 100%;
+    max-width: 650px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  main main.lifestyle-posts section.posts aside.left,
+  main main.family-posts section.posts aside.left,
+  main main.food-posts section.posts aside.left {
+    width: 100%;
+    max-width: 500px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  main main.lifestyle-posts section.posts aside.left,
+  main main.family-posts section.posts aside.left,
+  main main.food-posts section.posts aside.left {
+    width: 100%;
+    max-width: 450px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  main main.lifestyle-posts section.posts aside.left,
+  main main.family-posts section.posts aside.left,
+  main main.food-posts section.posts aside.left {
+    width: 100%;
+    max-width: 350px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  main main.lifestyle-posts section.posts aside.left,
+  main main.family-posts section.posts aside.left,
+  main main.food-posts section.posts aside.left {
+    width: 100%;
+    max-width: 280px;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  main main.lifestyle-posts section.posts aside.left,
+  main main.family-posts section.posts aside.left,
+  main main.food-posts section.posts aside.left {
+    width: 100%;
+    max-width: 250px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  main section.about h2 {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  main section.about h2 {
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  main section.about article aside {
+    width: 100%;
+    max-width: 781px;
+    height: 471px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  main section.about article aside {
+    width: 100%;
+    max-width: 681px;
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  main section.about article aside {
+    width: 100%;
+    max-width: 550px;
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  main section.about article aside {
+    width: 100%;
+    max-width: 410px;
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  main section.about article aside {
+    width: 100%;
+    max-width: 350px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  main section.about article aside {
+    width: 100%;
+    max-width: 300px;
+    height: 180px;
+  }
+}
+
+@media screen and (max-width: 319px) {
+  main section.about article aside {
+    width: 100%;
+    max-width: 270px;
+    height: 170px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  main section.about article aside form {
+    width: 100%;
+    max-width: 688px;
+    height: 600px;
+    margin-top: 380px;
+    margin-left: 46.5px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  main section.about article aside form {
+    width: 100%;
+    max-width: 595px;
+    height: 600px;
+    margin-top: 330px;
+    margin-left: 43px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  main section.about article aside form {
+    width: 100%;
+    max-width: 500px;
+    height: 600px;
+    margin-top: 250px;
+    margin-left: 25px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  main section.about article aside form {
+    width: 100%;
+    max-width: 370px;
+    height: 600px;
+    margin-top: 210px;
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  main section.about article aside form {
+    width: 100%;
+    max-width: 310px;
+    height: 600px;
+    margin-top: 170px;
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  main section.about article aside form {
+    width: 100%;
+    max-width: 300px;
+    height: 600px;
+    margin-top: 170px;
+    margin-left: 25px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  main section.about article aside form {
+    width: 100%;
+    max-width: 300px;
+    height: 600px;
+    margin-top: 180px;
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 319px) {
+  main section.about article aside form {
+    width: 100%;
+    max-width: 270px;
+    height: 600px;
+    margin-top: 170px;
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  main section.about article aside form div.heather {
+    background-color: #eaf2f5;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  main section.about article aside form div.heather div.text h3 {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  main section.about article aside form div.heather div.text h3 {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  main section.about article aside form div.heather div.text h3 {
+    margin-bottom: 5px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  main section.about article aside form div.heather div.text p {
+    letter-spacing: 0px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  main section.about article aside form div.heather div.text p {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  main section.about article aside form div.heather p {
+    margin-top: 0px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  main section.about article aside form div.heather div.input {
+    margin-top: 0px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  main section.about article aside form div.heather div.input input {
+    width: 100%;
+    max-width: 170px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  main section.about article aside form div.heather div.input input {
+    width: 100%;
+    max-width: 150px;
+    height: 30px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  main section.about article aside form div.heather div.input input {
+    width: 100%;
+    max-width: 233px;
+    height: 30px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  main section.about article aside form div.heather div.message textarea {
+    width: 100%;
+    max-width: 400px;
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  main section.about article aside form div.heather div.message textarea {
+    width: 100%;
+    max-width: 300px;
+    height: 50px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  main section.about article aside form div.heather div.message textarea {
+    width: 100%;
+    max-width: 250px;
+    height: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  main section.about article aside form div.heather div.button button {
+    width: 100%;
+    max-width: 120px;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  main section.about article aside form div.heather div.button button {
+    width: 100%;
+    max-width: 90px;
+    height: 30px;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  footer.about {
+    margin-top: 650px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  footer.about {
+    margin-top: 750px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  footer.about {
+    margin-top: 780px;
+  }
+}
+
+@media screen and (max-width: 319px) {
+  footer.about {
+    margin-top: 900px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  main section.background-image article {
+    width: 100%;
+    height: 550px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  main section.banner article.flex-center {
+    padding-top: 100px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  main section.banner article.flex-center {
+    padding-top: 80px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  main main.posts section.posts {
+    height: 2000px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  main main.posts section.posts {
+    gap: 0px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  main section.banner article.flex-center {
+    padding-top: 60px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  main section.banner article.flex-center aside,
+  main section.banner article.flex-center aside:nth-child(2) img,
+  main section.banner article.flex-center aside:nth-child(3) {
+    width: 100%;
+    max-width: 240px;
+    height: 210px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  main section.banner article.flex-center aside,
+  main section.banner article.flex-center aside:nth-child(2) img,
+  main section.banner article.flex-center aside:nth-child(3) {
+    width: 100%;
+    max-width: 210px;
+    height: 180px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  main section.banner article.flex-center aside:nth-child(2),
+  main section.banner article.flex-center aside:nth-child(3) {
+    margin-top: 130px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  main section.banner article.flex-center aside:nth-child(2),
+  main section.banner article.flex-center aside:nth-child(3) {
+    margin-top: 120px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  main section.banner article.flex-center aside div.overlay1,
+  main section.banner article.flex-center aside div.overlay2,
+  main section.banner article.flex-center aside div.overlay3 {
+    width: 100%;
+    max-width: 240px;
+    height: 100px;
+    margin-top: 20px;
+    left: 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  main section.banner article.flex-center aside div.overlay1,
+  main section.banner article.flex-center aside div.overlay2,
+  main section.banner article.flex-center aside div.overlay3 {
+    width: 100%;
+    max-width: 210px;
+    height: 80px;
+    margin-top: 0px;
+    left: 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  main section.banner article.flex-center aside div.overlay1 a h3,
+  main section.banner article.flex-center aside div.overlay2 a h3,
+  main section.banner article.flex-center aside div.overlay3 a h3 {
+    margin-top: 5px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  main section.background-image article {
+    width: 100%;
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  main section.background-image article {
+    width: 100%;
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  main section.background-image article {
+    width: 100%;
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  main section.background-image article {
+    width: 100%;
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  main main.posts section.posts aside.left {
+    width: 100%;
+    max-width: 650px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  main main.posts section.posts aside.left article.post-photo1,
+  main main.posts section.posts aside.left article.post-photo2,
+  main main.posts section.posts aside.left article.post-photo3 {
+    width: 100%;
+    max-width: 650px;
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  main main.posts section.posts aside.left div.content {
+    width: 100%;
+    max-width: 590px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  main section.image-gallery aside,
+  main section.image-gallery aside:nth-child(2),
+  main section.image-gallery aside:nth-child(3),
+  main section.image-gallery aside:nth-child(4),
+  main section.image-gallery aside:nth-child(5) {
+    width: 100%;
+    max-width: 300px;
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  main section.image-gallery aside,
+  main section.image-gallery aside:nth-child(2),
+  main section.image-gallery aside:nth-child(3),
+  main section.image-gallery aside:nth-child(4),
+  main section.image-gallery aside:nth-child(5) {
+    width: 100%;
+    max-width: 260px;
+    height: 260px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  main main.posts section.posts aside.left {
+    width: 100%;
+    max-width: 550px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  main main.posts section.posts aside.left article.post-photo1,
+  main main.posts section.posts aside.left article.post-photo2,
+  main main.posts section.posts aside.left article.post-photo3 {
+    width: 100%;
+    max-width: 550px;
+    height: 350px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  main main.posts section.posts aside.left div.content {
+    width: 100%;
+    max-width: 440px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  main main.posts section.posts aside.left {
+    width: 100%;
+    max-width: 450px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  main main.posts section.posts aside.left article.post-photo1,
+  main main.posts section.posts aside.left article.post-photo2,
+  main main.posts section.posts aside.left article.post-photo3 {
+    width: 100%;
+    max-width: 450px;
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  main main.posts section.posts aside.left div.content {
+    width: 100%;
+    max-width: 390px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  main main.posts section.posts aside.left {
+    width: 100%;
+    max-width: 350px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  main main.posts section.posts aside.left article.post-photo1,
+  main main.posts section.posts aside.left article.post-photo2,
+  main main.posts section.posts aside.left article.post-photo3 {
+    width: 100%;
+    max-width: 350px;
+    height: 230px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  main main.posts section.posts aside.left div.content {
+    width: 100%;
+    max-width: 290px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  main main.posts section.posts aside.left {
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  main main.posts section.posts aside.left article.post-photo1,
+  main main.posts section.posts aside.left article.post-photo2,
+  main main.posts section.posts aside.left article.post-photo3 {
+    width: 100%;
+    max-width: 300px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  main main.posts section.posts aside.left div.content {
+    width: 100%;
+    max-width: 240px;
+    height: 200px;
+    padding-top: 15px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  main main.posts section.posts aside.left {
+    width: 100%;
+    max-width: 270px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  main main.posts section.posts aside.left article.post-photo1,
+  main main.posts section.posts aside.left article.post-photo2,
+  main main.posts section.posts aside.left article.post-photo3 {
+    width: 100%;
+    max-width: 270px;
+    height: 180px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  main main.posts section.posts aside.left div.content {
+    width: 100%;
+    max-width: 210px;
+    height: 200px;
+    padding-top: 15px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  main main.posts {
+    margin-top: 100px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  main section.image-gallery {
+    padding-top: 300px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  main section.image-gallery {
+    padding-top: 150px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  main section.image-gallery {
+    padding-top: 30px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  main section.image-gallery {
+    padding-top: 0px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  main section.lifestyle h2,
+  main section.family h2,
+  main section.food h2 {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  main section.lifestyle h2,
+  main section.family h2,
+  main section.food h2 {
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  main main.lifestyle-posts section.posts aside.left article.post-photo1,
+  main main.lifestyle-posts section.posts aside.left article.post-photo2,
+  main main.lifestyle-posts section.posts aside.left article.post-photo3,
+  main main.family-posts section.posts aside.left article.post-photo1,
+  main main.family-posts section.posts aside.left article.post-photo2,
+  main main.family-posts section.posts aside.left article.post-photo3,
+  main main.food-posts section.posts aside.left article.post-photo1,
+  main main.food-posts section.posts aside.left article.post-photo2,
+  main main.food-posts section.posts aside.left article.post-photo3 {
+    width: 100%;
+    max-width: 750px;
+    height: 450px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  main main.lifestyle-posts section.posts aside.left article.post-photo1,
+  main main.lifestyle-posts section.posts aside.left article.post-photo2,
+  main main.lifestyle-posts section.posts aside.left article.post-photo3,
+  main main.family-posts section.posts aside.left article.post-photo1,
+  main main.family-posts section.posts aside.left article.post-photo2,
+  main main.family-posts section.posts aside.left article.post-photo3,
+  main main.food-posts section.posts aside.left article.post-photo1,
+  main main.food-posts section.posts aside.left article.post-photo2,
+  main main.food-posts section.posts aside.left article.post-photo3 {
+    width: 100%;
+    max-width: 650px;
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  main main.lifestyle-posts section.posts aside.left article.post-photo1,
+  main main.lifestyle-posts section.posts aside.left article.post-photo2,
+  main main.lifestyle-posts section.posts aside.left article.post-photo3,
+  main main.family-posts section.posts aside.left article.post-photo1,
+  main main.family-posts section.posts aside.left article.post-photo2,
+  main main.family-posts section.posts aside.left article.post-photo3,
+  main main.food-posts section.posts aside.left article.post-photo1,
+  main main.food-posts section.posts aside.left article.post-photo2,
+  main main.food-posts section.posts aside.left article.post-photo3 {
+    width: 100%;
+    max-width: 500px;
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  main main.lifestyle-posts section.posts aside.left article.post-photo1,
+  main main.lifestyle-posts section.posts aside.left article.post-photo2,
+  main main.lifestyle-posts section.posts aside.left article.post-photo3,
+  main main.family-posts section.posts aside.left article.post-photo1,
+  main main.family-posts section.posts aside.left article.post-photo2,
+  main main.family-posts section.posts aside.left article.post-photo3,
+  main main.food-posts section.posts aside.left article.post-photo1,
+  main main.food-posts section.posts aside.left article.post-photo2,
+  main main.food-posts section.posts aside.left article.post-photo3 {
+    width: 100%;
+    max-width: 450px;
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  main main.lifestyle-posts section.posts aside.left article.post-photo1,
+  main main.lifestyle-posts section.posts aside.left article.post-photo2,
+  main main.lifestyle-posts section.posts aside.left article.post-photo3,
+  main main.family-posts section.posts aside.left article.post-photo1,
+  main main.family-posts section.posts aside.left article.post-photo2,
+  main main.family-posts section.posts aside.left article.post-photo3,
+  main main.food-posts section.posts aside.left article.post-photo1,
+  main main.food-posts section.posts aside.left article.post-photo2,
+  main main.food-posts section.posts aside.left article.post-photo3 {
+    width: 100%;
+    max-width: 350px;
+    height: 230px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  main main.lifestyle-posts section.posts aside.left article.post-photo1,
+  main main.lifestyle-posts section.posts aside.left article.post-photo2,
+  main main.lifestyle-posts section.posts aside.left article.post-photo3,
+  main main.family-posts section.posts aside.left article.post-photo1,
+  main main.family-posts section.posts aside.left article.post-photo2,
+  main main.family-posts section.posts aside.left article.post-photo3,
+  main main.food-posts section.posts aside.left article.post-photo1,
+  main main.food-posts section.posts aside.left article.post-photo2,
+  main main.food-posts section.posts aside.left article.post-photo3 {
+    width: 100%;
+    max-width: 280px;
+    height: 180px;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  main main.lifestyle-posts section.posts aside.left article.post-photo1,
+  main main.lifestyle-posts section.posts aside.left article.post-photo2,
+  main main.lifestyle-posts section.posts aside.left article.post-photo3,
+  main main.family-posts section.posts aside.left article.post-photo1,
+  main main.family-posts section.posts aside.left article.post-photo2,
+  main main.family-posts section.posts aside.left article.post-photo3,
+  main main.food-posts section.posts aside.left article.post-photo1,
+  main main.food-posts section.posts aside.left article.post-photo2,
+  main main.food-posts section.posts aside.left article.post-photo3 {
+    width: 100%;
+    max-width: 250px;
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  main main.lifestyle-posts section.posts aside.left div.content,
+  main main.family-posts section.posts aside.left div.content,
+  main main.food-posts section.posts aside.left div.content {
+    width: 100%;
+    max-width: 688px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  main main.lifestyle-posts section.posts aside.left div.content,
+  main main.family-posts section.posts aside.left div.content,
+  main main.food-posts section.posts aside.left div.content {
+    width: 100%;
+    max-width: 588px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  main main.lifestyle-posts section.posts aside.left div.content,
+  main main.family-posts section.posts aside.left div.content,
+  main main.food-posts section.posts aside.left div.content {
+    width: 100%;
+    max-width: 438px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  main main.lifestyle-posts section.posts aside.left div.content,
+  main main.family-posts section.posts aside.left div.content,
+  main main.food-posts section.posts aside.left div.content {
+    width: 100%;
+    max-width: 388px;
+    height: 220px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  main main.lifestyle-posts section.posts aside.left div.content,
+  main main.family-posts section.posts aside.left div.content,
+  main main.food-posts section.posts aside.left div.content {
+    width: 100%;
+    max-width: 331.5px;
+    padding: 28px 0px 25px 18.5px;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  main main.lifestyle-posts section.posts aside.left div.content,
+  main main.family-posts section.posts aside.left div.content,
+  main main.food-posts section.posts aside.left div.content {
+    width: 100%;
+    max-width: 300px;
+    padding: 28px 0px 25px 18.5px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  main main.lifestyle-posts section.posts aside.left div.content,
+  main main.family-posts section.posts aside.left div.content,
+  main main.food-posts section.posts aside.left div.content {
+    width: 100%;
+    max-width: 300px;
+    padding: 28px 0px 25px 18.5px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  main main.lifestyle-posts section.posts aside.left div.content,
+  main main.family-posts section.posts aside.left div.content,
+  main main.food-posts section.posts aside.left div.content {
+    width: 100%;
+    max-width: 261.5px;
+    padding: 28px 0px 25px 18.5px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  main main.lifestyle-posts section.posts aside.left div.content,
+  main main.family-posts section.posts aside.left div.content,
+  main main.food-posts section.posts aside.left div.content {
+    width: 100%;
+    max-width: 250px;
+    padding: 28px 0px 25px 18.5px;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  main main.lifestyle-posts section.posts aside.left div.content,
+  main main.family-posts section.posts aside.left div.content,
+  main main.food-posts section.posts aside.left div.content {
+    width: 100%;
+    max-width: 231.5px;
+    padding: 28px 0px 25px 18.5px;
+  }
+}
+
+@media screen and (max-width: 421px) {
+  main main.lifestyle-posts section.posts aside.left article.post-photo2,
+  main main.lifestyle-posts section.posts aside.left article.post-photo3,
+  main main.family-posts section.posts aside.left article.post-photo2,
+  main main.family-posts section.posts aside.left article.post-photo3,
+  main main.food-posts section.posts aside.left article.post-photo2,
+  main main.food-posts section.posts aside.left article.post-photo3 {
+    margin-top: 5px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  main main.lifestyle-posts section.posts aside.left article.post-photo3,
+  main main.family-posts section.posts aside.left article.post-photo3,
+  main main.food-posts section.posts aside.left article.post-photo3 {
+    margin-top: 32px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  footer div.info {
+    padding: 0px 0px 0px 100px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  footer div.info {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  footer div.info {
+    padding-left: 60px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  footer form.flex-center input {
+    width: 100%;
+    max-width: 620px;
+    padding: 0px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  footer form.flex-center button {
+    width: 100%;
+    max-width: 624px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  footer form.flex-center input {
+    width: 100%;
+    max-width: 550px;
+    padding: 0px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  footer form.flex-center button {
+    width: 100%;
+    max-width: 554px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  footer form.flex-center input {
+    width: 100%;
+    max-width: 450px;
+    padding: 0px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  footer form.flex-center button {
+    width: 100%;
+    max-width: 454px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  footer form.flex-center input {
+    width: 100%;
+    max-width: 350px;
+    padding: 0px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  footer form.flex-center button {
+    width: 100%;
+    max-width: 354px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  footer form.flex-center input {
+    width: 100%;
+    max-width: 270px;
+    padding: 0px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  footer form.flex-center button {
+    width: 100%;
+    max-width: 274px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  footer form.flex-center button {
+    width: 100%;
+    height: 35px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  footer.lifestyle,
+  footer.family,
+  footer.food {
+    margin-top: 15px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  footer div.info div.chat a button {
+    bottom: 200px;
+    right: 0;
+  }
+}
+
+@media screen and (max-width: 325px) {
+  footer div.info div.chat a button {
+    bottom: 230px;
+    right: 0;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  footer div.info div.chat a button {
+    border-radius: 50%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  footer div.info {
+    padding-left: 30px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  footer div.info {
+    padding-left: 10px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  footer div.info {
+    padding-left: 40px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  footer div.info {
+    padding-left: 35px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  footer div.info {
+    padding-left: 25px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  footer div.info {
+    padding-left: 18px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  footer div.info {
+    padding-left: 10px;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  footer div.info {
+    padding: 5px;
+  }
+}
