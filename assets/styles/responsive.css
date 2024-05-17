@@ -24,7 +24,9 @@
     top: 68px;
     right: -100%;
     flex-direction: column;
-    gap: 30px;
+    justify-content: flex-start;
+    padding-top: 100px;
+    gap: 40px;
     z-index: 100;
   }
 
